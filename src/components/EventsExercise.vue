@@ -41,6 +41,7 @@ export default {
   setup() {
     // NOTE typically state will be abstracted to a global AppState
     const state = reactive({
+      counter: 0
       //add property called "counter"
       //add property called "greeting"
       //create a method called "greet"
